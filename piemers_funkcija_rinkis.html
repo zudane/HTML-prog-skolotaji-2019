@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Kursi</title>
+    <body>
+      <script type="text/javascript">
+        {
+        }
+        {
+          //rinķa līnijas aprēķināšana C=2piR
+          function rinkalinija() {
+            const R = parseInt(prompt`lūdzu ievadoet rādiusa garumu`);
+            const C = 2 * Math.PI * R;
+            const K = C.toFixed(2); //noapaļo divus ciparus aiz komata
+            return ` Riņķa līnijas garums  ar rādiusu ${R} ir ${K} `;
+          }
+          console.log(rinkalinija());
+        }
+      </script>
+    </body>
+  </head>
+</html>
